@@ -33,7 +33,7 @@ This report examines feasibility by:
 ---
 
 ## The paradigm shift
-- **From bad lists to a good list:** Default access only for pre‑verified, continuously vetted sites.
+- **From bad lists to a trusted list:** Default access only for pre‑verified, continuously vetted sites.
 - **Continuous assurance:** Scheduled renewals, automated audits, incident based reviews and immediate revocation for violations.
 - **Browser native enforcement:** Clear, consistent user signals and low latency credential checks at page load.
 
@@ -47,3 +47,10 @@ This report examines feasibility by:
 
 ## Summary
 Subsequent chapters cover current standards and the “Trusted Websites” concept; architecture, workflow and governance; expected impacts, risks and case studies; and the economics, scalability and path forward for piloting and adoption.
+
+---
+
+### 📖 Continue Reading  
+
+➡️[Next: Chapter 2 - The Trusted Websites Concept](Ch2-The-Trusted-Websites-concept.md)  
+[🏛️ Back to Index](index.md)
