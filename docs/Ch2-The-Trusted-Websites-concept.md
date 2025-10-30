@@ -64,9 +64,17 @@ Trusted Websites re‑frames access: only pre‑verified, continuously monitored
 ## Precedents and analogies
 - App stores and government registries demonstrate that pre‑screening at scale is possible and can raise baseline trust.
 - Platform verification badges show strong signalling value but are siloed; Trusted Websites aims to generalise that signal across the open web.
-- Emerging browser APIs and verifiable credential standards provide technical building blocks that make a browser integrated Good List feasible.
+- Emerging browser APIs and verifiable credential standards provide technical building blocks that make a browser integrated Trusted List feasible.
 
 ---
 
 ## Summary
 Current standards secure transport and assist detection but do not deliver universal, pre‑emptive assurance. The Trusted Websites paradigm builds on existing identity and credentialing work to make verification a proactive, browser enforced requirement - improving protection while introducing new governance, inclusion and technical design questions that later chapters address.
+
+---
+
+### 📖 Continue Reading
+⬅️ [Back: Chapter 1 - Introduction and Context](Ch1-Introduction-and-context.md)  
+➡️ [Next: Chapter 3 - Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
+[🏛️ Back to Index](index.md)
+
