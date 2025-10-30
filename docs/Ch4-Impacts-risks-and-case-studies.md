@@ -78,7 +78,15 @@ It outlines the statistical metrics to monitor, and the governance and technical
 ---
 
 ## Summary
-A Trusted Websites regime promises substantial reductions in common web harms and a stronger baseline of user trust,
+A Trusted Websites system promises substantial reductions in common web harms and a stronger baseline of user trust,
 but it introduces serious governance, equity and technical risks. The practical path is iterative: measure rigorously,
 pilot in high risk sectors, adopt federated models, embed strong oversight and human rights protections, and build affordable tracks for inclusion.
 Chapter 5 lays out the economic considerations, scalability planning and a phased roadmap for pilots and broader adoption.
+
+---
+
+### 📖 Continue Reading  
+
+➡️ [Next: Chapter 5 - Economics, Scalability, and Path Forward](Ch5-Economics-scalability-and-path-forward.md)  
+⬅️ [Back: Chapter 3 - Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
+[🏛️ Back to Index](index.md)
