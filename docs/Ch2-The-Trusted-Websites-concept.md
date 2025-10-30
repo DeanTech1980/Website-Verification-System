@@ -73,8 +73,9 @@ Current standards secure transport and assist detection but do not deliver unive
 
 ---
 
-### 📖 Continue Reading
-⬅️ [Back: Chapter 1 - Introduction and Context](Ch1-Introduction-and-context.md)  
+### 📖 Continue Reading  
+
 ➡️ [Next: Chapter 3 - Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
+⬅️ [Back: Chapter 1 - Introduction and Context](Ch1-Introduction-and-context.md)  
 [🏛️ Back to Index](index.md)
 
