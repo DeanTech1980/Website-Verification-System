@@ -5,7 +5,7 @@ title: Chapter 4 - Impacts, risks and case studies
 # Chapter 4 - Impacts, risks and case studies
 
 ## Overview 
-This chapter evaluates the expected benefits and measurable impacts of a Trusted Websites regime,
+This chapter evaluates the expected benefits and measurable impacts of a **Trusted Websites** system,
 contrasts it with related systems (email spam filtering and platform verification), and examines practical risks and mitigations through realworld case studies.
 It outlines the statistical metrics to monitor, and the governance and technical controls required to limit harms introduced by centralisation.
 
@@ -13,7 +13,7 @@ It outlines the statistical metrics to monitor, and the governance and technical
 
 ## Expected impact and key metrics
 - **Reduction in new malicious sites:** A pre‑verification barrier would raise the cost and risk for attackers,
-- potentially reducing successful malicious launches substantially.  
+potentially reducing successful malicious launches substantially.  
 - **Shortened harm windows:** Continuous monitoring and rapid revocation aim to cut average exposure from days or weeks to hours.  
 - **Elevated baseline trust:** Consistent browser signalling should increase user confidence and economic activity tied to trusted sites.
 
@@ -73,12 +73,12 @@ It outlines the statistical metrics to monitor, and the governance and technical
 - **Tiered and subsidised models:** low cost or nonprofit tracks for small, community and culturally important sites.  
 - **Robust security practices:** geo‑distributed infrastructure, short token TTLs, hardened key management, pen tests and bug bounties.  
 - **Human rights by design:** explicit policies for journalists, whistleblowers and sensitive speech;
-  mechanisms for verified anonymous publication via accountable intermediaries.
+mechanisms for verified anonymous publication via accountable intermediaries.
 
 ---
 
 ## Summary
-A Trusted Websites system promises substantial reductions in common web harms and a stronger baseline of user trust,
+A **Trusted Websites** system promises substantial reductions in common web harms and a stronger baseline of user trust,
 but it introduces serious governance, equity and technical risks. The practical path is iterative: measure rigorously,
 pilot in high risk sectors, adopt federated models, embed strong oversight and human rights protections, and build affordable tracks for inclusion.
 Chapter 5 lays out the economic considerations, scalability planning and a phased roadmap for pilots and broader adoption.
