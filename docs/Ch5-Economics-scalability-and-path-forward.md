@@ -5,7 +5,7 @@ title: Chapter 5 - Economics, scalability and path forward
 # Chapter 5 - Economics, scalability and path forward
 
 ## Overview
-This chapter examines the economic trade offs, funding models and market impacts of a Trusted Websites regime, outlines scalability and resilience requirements for a global verification infrastructure, and proposes a staged roadmap to pilot, evaluate and expand the system while protecting inclusion, rights and competition.
+This chapter examines the economic trade offs, funding models and market impacts of a Trusted Websites system, outlines scalability and resilience requirements for a global verification infrastructure, and proposes a staged roadmap to pilot, evaluate and expand the system while protecting inclusion, rights and competition.
 
 ---
 
@@ -113,6 +113,14 @@ This chapter examines the economic trade offs, funding models and market impacts
 ---
 
 ## Summary
-A Trusted Websites regime is economically intensive but can deliver large social returns through reduced fraud and stronger digital trust.
+A Trusted Websites system is economically intensive but can deliver large social returns through reduced fraud and stronger digital trust.
 Success depends on careful funding design, strong inclusion mechanisms, distributed engineering, open standards and staged pilots with rigorous KPIs.
 Prioritise privacy, human rights safeguards and subsidised tracks so the system raises the baseline of trust without excluding the web’s most valuable small and community actors.
+
+---
+
+### 📘 End of Paper 
+
+⬅️ [Back: Chapter 4 - Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
+[🏛️ Back to Index](index.md)
+
