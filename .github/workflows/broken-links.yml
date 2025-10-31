@@ -1,0 +1,19 @@
+name: Broken links check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Broken Links Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          command: --action error --format github --only-status-codes 200,301,302 --allow-list ''
