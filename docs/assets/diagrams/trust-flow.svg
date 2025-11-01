@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <style>
+    .box { stroke: #333; stroke-width: 1.5; rx:8; ry:8; }
+    .title { font: 600 14px Arial, sans-serif; fill: #111; }
+    .label { font: 400 12px Arial, sans-serif; fill: #111; }
+    .small { font: 400 11px Arial, sans-serif; fill: #111; }
+    .arrow { fill: none; stroke: #333; stroke-width: 1.6; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- User Browser (blue) -->
+  <rect class="box" x="20" y="40" width="180" height="80" fill="#d7e7ff"/>
+  <text class="title" x="30" y="62">User Browser</text>
+  <text class="small" x="30" y="82">Navigation to site</text>
+  <text class="small" x="30" y="100">Check local cache / token</text>
+
+  <!-- Decision diamond (grey) -->
+  <g transform="translate(230,80)">
+    <polygon points="0,30 40,0 80,30 40,60" fill="#eeeeee" stroke="#333" stroke-width="1.5"/>
+    <text class="small" x="18" y="34">Cached?</text>
+  </g>
+
+  <path class="arrow" d="M200 80 L230 80" />
+
+  <!-- Allow / Render (green) -->
+  <path class="arrow" d="M310 80 L380 80" />
+  <rect class="box" x="380" y="40" width="160" height="80" fill="#d8f8d8"/>
+  <text class="title" x="390" y="62">Allow / Render</text>
+  <text class="small" x="390" y="84">Use cached trust token</text>
+
+  <!-- Not cached (downward) -->
+  <path class="arrow" d="M270 110 L270 150" />
+
+  <!-- Verification Authority (orange) -->
+  <rect class="box" x="240" y="150" width="220" height="100" fill="#ffe2c6"/>
+  <text class="title" x="255" y="172">Verification Authority</text>
+  <text class="small" x="255" y="190">Registry | Issuance | Revocation</text>
+  <text class="small" x="255" y="208">Automated checks & human review</text>
+
+  <!-- Response to browser -->
+  <path class="arrow" d="M460 200 L560 200 L650 110" />
+
+  <!-- Final Browser check (blue) -->
+  <rect class="box" x="660" y="40" width="200" height="80" fill="#d7e7ff"/>
+  <text class="title" x="670" y="62">Browser</text>
+  <text class="small" x="670" y="84">Receive status & enforce</text>
+
+  <!-- Suspension (red) -->
+  <path class="arrow" d="M360 250 L360 230" />
+  <rect class="box" x="140" y="190" width="80" height="60" fill="#ffd4d4"/>
+  <text class="title" x="150" y="212">Suspend</text>
+  <text class="small" x="150" y="232">Remediation / Appeal</text>
+
+  <!-- Arrow labels -->
+  <text class="small" x="215" y="70">cache hit →</text>
+  <text class="small" x="270" y="135">no / expired →</text>
+  <text class="small" x="440" y="170">status response →</text>
+  <text class="small" x="330" y="240">violation →</text>
+
+  <!-- Footnote -->
+  <text class="small" x="20" y="285">
+    Flow: Browser checks cache. If missing it queries the Verification Authority. Authority returns status. Browser enforces or suspends.
+  </text>
+</svg>
+
