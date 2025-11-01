@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 6.0)
+    concurrent-ruby (1.2.3)
+    jekyll (5.0.0)
+      addressable (~> 2.8)
+      bundler (>= 2.0.0)
+      concurrent-ruby (~> 1.0)
+      kramdown (>= 2.0)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 5.0)
+      minima (>= 3.0)
+      rouge (~> 4.0)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.0)
+    jekyll-sitemap (1.6.0)
+      jekyll (>= 3.0)
+    kramdown (2.4.1)
+    kramdown-parser-gfm (1.1.0)
+      kramdown (>= 2.0)
+    liquid (5.1.1)
+    minima (3.1.0)
+      jekyll (>= 3.9, < 6)
+      kramdown-parser-gfm (~> 1.0)
+    public_suffix (4.0.7)
+    rouge (4.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll (~> 5.0)
+  jekyll-seo-tag
+  jekyll-sitemap
+  minima
+
+BUNDLED WITH
+   2.3.26
