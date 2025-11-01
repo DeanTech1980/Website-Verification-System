@@ -1,21 +1,22 @@
-name: Build and deploy site
+name: Publish Gem
+
 on:
-  push:
-    branches: [ main ]
+  release:
+    types: [released]
+
 jobs:
-  build-deploy:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
-      - run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
-      - run: bundle exec jekyll build --destination public
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          ruby-version: '3.2'
+      - name: Build gem
+        run: |
+          gem build github-pages.gemspec
+      - name: Publish
+        run: |
+          gem push github-pages.gem --key ${{ secrets.PAGES_GEM_PUBLISH }}
