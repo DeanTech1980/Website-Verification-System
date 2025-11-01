@@ -7,9 +7,7 @@ author:
   name: Dean John Weiniger
   email: deantech1980@gmail.com
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-markdown: kramdown
-theme: minima
-kramdown:
-  input: GFM
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+remote_theme: pages-themes/cayman@v0.2.0
