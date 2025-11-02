@@ -36,12 +36,14 @@ digital identity, and online safety._
 
 - [📖 Introduction](#-introduction)
 - [🔍 Existing Website Authentication Standards](#-existing-website-authentication-standards)
+- [🪪 Centralised Verification Authority Models](#-centralised-verification-authority-models)
+- [🌐 Browser Integrated Verification](#-browser-integrated-verification)
 - [📄 The Blacklist vs The Trusted List](#-the-blacklist-vs-the-trusted-list)
 - [🧩 Technical Architecture](#-technical-architecture)
 - [🎯 Approval & Renewal](#-approval--renewal)
 - [📈 Statistical Impact](#-statistical-impact)
 - [🔁 Comparisons](#-comparisons)
-- [🌍 Governance Models](#-governance-models)
+- [🌏 Governance Models](#-governance-models)
 - [📚 Case Studies](#-case-studies)
 - [🔐 Cyber Security Standards](#-cyber-security-standards)
 - [🪙 Challenges](#-challenges)
@@ -118,7 +120,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🛡️ Centralised Verification Authority Models
+## 🪪 Centralised Verification Authority Models
 
 - **Single Global Authority**: one supranational body.
 - **Federated National Entities**: each country governs its sites, interoperating globally.
@@ -193,7 +195,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ## 🔁 Comparisons
 
-### 📧 Email Spam Filtering:
+### 📩 Email Spam Filtering:
 
 - **Spam filters** = reactive, statistical.
 - **Trusted List** = proactive, identity based.
@@ -205,7 +207,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🌍 Governance Models
+## 🌏 Governance Models
 
 - **National**: e.g. Australia’s Digital ID Act.
 - **International**: ICANN, ITU, IGF - but limited scope.
