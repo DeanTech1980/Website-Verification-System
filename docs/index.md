@@ -68,6 +68,8 @@ global-website-verification-system/
 │       └── pages.yml                                  # Starts the webpage service
 ├── docs/                                              # Documents for GitHub Pages
 │   └── assets/                                        # Images, diagrams, charts
+│   │   ├── css/
+│   │   │   └── styles.scss                            # Styles sheet
 │   │   └── diagrams/
 │   │       ├── trust-flow.svg                         # Trust diagram
 │   │       └── trust-flow.png
@@ -145,15 +147,15 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ## 📄 The Blacklist vs The Trusted List
 
-| Aspect                    | Current Blacklists    | Proposed Trusted List        |
-| ------------------------- | -------------------- | ---------------------------- |
-| Source                    | Multiple, fragmented | Central/federated authority  |
-| Update                    | After harm occurs    | Proactive, continuous        |
-| Criteria                  | Known harm only      | Strict vetting before launch |
-| Coverage                  | Incomplete           | Comprehensive                |
-| UX                        | Variable             | Clear, browser‑native        |
-| False Positives/Negatives | Common               | Reduced                      |
-| Removal Impact            | Site still exists    | Site inaccessible            |
+| Aspect | Current Blacklists | Proposed Trusted List |
+|--------|--------------------|-----------------------|
+| Source | Multiple, fragmented | Central/federated authority |
+| Update | After harm occurs | Proactive, continuous |
+| Criteria | Known harm only | Strict vetting before launch |
+| Coverage | Incomplete | Comprehensive |
+| UX | Variable | Clear, browser‑native |
+| False Positives/Negatives | Common | Reduced |
+| Removal Impact | Site still exists | Site inaccessible |
 
 ---
 
