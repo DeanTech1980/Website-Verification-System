@@ -1,5 +1,8 @@
 ---
 title: Chapter 3 - Architecture, Workflow and Governance
+description: This chapter defines the technical architecture.
+author: Dean John Weiniger
+layout: default
 ---
 
 # Chapter 3 - Architecture, Workflow and Governance
@@ -87,3 +90,15 @@ This chapter defines the technical architecture, the end‑to‑end verification
 
 ## Summary
 Chapter 3 lays out a feasible technical pattern and governance posture: centre technical coordination around interoperable standards, delegate vetting to accredited verifiers where appropriate, bake privacy and human rights protections into every workflow, and validate assumptions through staged pilots with independent oversight.
+
+---
+
+### 📖 Continue Reading  
+
+➡️[Next: Chapter 4 - Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
+⬅️[Back: Chapter 2 - The Trusted Websites Concept](Ch2-The-Trusted-Websites-concept.md)  
+[🏛️ Back to Index](index.md)
+
+---
+
+_Last updated: 02-11-2025_
