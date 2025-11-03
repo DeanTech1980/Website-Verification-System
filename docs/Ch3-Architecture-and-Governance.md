@@ -76,7 +76,7 @@ This chapter defines the technical architecture, the end‑to‑end verification
 - **Third party audits:** regular security and process audits by accredited independent firms.  
 - **Pen tests and red teams:** continuous adversarial testing and public bug bounties.  
 - **Distributed architecture:** geo‑distributed mirrors, regional decision nodes and robust DDoS protection.  
-- **Tiered accreditation:** affordable, not‑for‑profit or subsidised tracks for small operators and community services to reduce exclusion risk.
+- **Tiered accreditation:** affordable, non‑for‑profit organisation or subsidised tracks for small operators and community services to reduce exclusion risk.
 
 ---
 
