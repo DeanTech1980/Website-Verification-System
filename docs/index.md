@@ -24,7 +24,7 @@ digital identity, and online safety._
 
 ## 📖 Full Report - Chapters
 
-- [Ch1 – Introduction](Ch1-Introduction-and-context.md)  
+- [Ch1 – Introduction](Ch1-Introduction.md)  
 - [Ch2 – Trusted Website Concept](Ch2-Trusted-Website-concept.md)  
 - [Ch3 – Architecture and Governance](Ch3-Architecture-and-Governance.md)  
 - [Ch4 – Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
