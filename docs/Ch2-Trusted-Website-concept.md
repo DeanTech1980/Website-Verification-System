@@ -1,11 +1,14 @@
 ---
-title: Chapter 2 - The Trusted Websites concept
+title: Chapter 2 - Trusted Website concept
+description: Website authentication practices
+author: Dean John Weiniger
+layout: default
 ---
 
-# Chapter 2 - The Trusted Websites concept
+# Chapter 2 - Trusted Website concept
 
 ## Overview
-This chapter surveys prevailing website authentication practices, explains their limits, and introduces the Trusted Websites paradigm that shifts the default from after‑the‑fact blocking to proactive, browser native verification.
+This chapter surveys prevailing website authentication practices, explains their limits, and introduces the Trusted Website paradigm that shifts the default from after the fact blocking to proactive, browser native verification.
 
 ---
 
@@ -69,13 +72,17 @@ Trusted Websites re‑frames access: only pre‑verified, continuously monitored
 ---
 
 ## Summary
-Current standards secure transport and assist detection but do not deliver universal, pre‑emptive assurance. The Trusted Websites paradigm builds on existing identity and credentialing work to make verification a proactive, browser enforced requirement - improving protection while introducing new governance, inclusion and technical design questions that later chapters address.
+Current standards secure transport and assist detection but do not deliver universal, pre‑emptive assurance. The Trusted Websites paradigm builds on existing identity and credentialing work to make verification a proactive, browser enforced requirement, improving protection while introducing new governance, inclusion and technical design questions that later chapters address.
 
 ---
 
 ### 📖 Continue Reading  
 
-➡️ [Next: Chapter 3 - Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
-⬅️ [Back: Chapter 1 - Introduction and Context](Ch1-Introduction-and-context.md)  
+➡️ [Next: Chapter 3 - Architecture and Governance](Ch3-Architecture-and-Governance.md)  
+⬅️ [Back: Chapter 1 - Introduction](Ch1-Introduction.md)  
 [🏛️ Back to Index](index.md)
+
+---
+
+_Last updated: 03-11-2025_
 
