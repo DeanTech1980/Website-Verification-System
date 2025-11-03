@@ -1,11 +1,11 @@
 ---
-title: Chapter 3 - Architecture, Workflow and Governance
-description: This chapter defines the technical architecture.
+title: Chapter 3 - Architecture and Governance
+description: Defines the technical architecture.
 author: Dean John Weiniger
 layout: default
 ---
 
-# Chapter 3 - Architecture, Workflow and Governance
+# Chapter 3 - Architecture and Governance
 
 ## Overview
 This chapter defines the technical architecture, the end‑to‑end verification lifecycle and the governance models needed to operate a Trusted Websites regime at scale. It balances practical engineering choices (latency, caching, revocation) with institutional design (central, federated or hybrid authorities) and outlines operational safeguards to protect rights and inclusion.
@@ -48,7 +48,7 @@ This chapter defines the technical architecture, the end‑to‑end verification
   1. Operator registers and provides identity evidence and domain control proof.  
   2. Automated technical checks (TLS, headers, basic vulnerability scans).  
   3. Policy and content screening for sectoral constraints where applicable.  
-  4. Human review for flagged or high risk applications.  
+  4. Human review for flagged or high-risk applications.  
   5. Credential issuance with explicit scope and TTL.
 
 - **Continuous compliance**
@@ -68,7 +68,7 @@ This chapter defines the technical architecture, the end‑to‑end verification
 - **Transparency:** published criteria, anonymised enforcement logs, and regular transparency reports.  
 - **Independent appeals:** an independent review panel to handle disputes, with published timetables and anonymised case outcomes.  
 - **Human rights safeguards:** policy tests to protect journalists, whistleblowers and dissidents, including accountable intermediaries and special case vouching mechanisms.  
-- **Privacy by design:** minimise personal data collection, store only required evidence, and apply retention limits and access controls.
+- **Privacy by design:** minimise personal data collection, store only required evidence and apply retention limits and access controls.
 
 ---
 
@@ -82,7 +82,7 @@ This chapter defines the technical architecture, the end‑to‑end verification
 
 ## Implementation roadmap and pilots
 - **Phase 0:** design standards, legal review and stakeholder consultation.  
-- **Phase 1:** pilot in high risk sectors (finance, healthcare, critical infrastructure) with a narrow scope and measurable KPIs.  
+- **Phase 1:** pilot in high-risk sectors (finance, healthcare, critical infrastructure) with a narrow scope and measurable KPIs.  
 - **Phase 2:** federated rollouts with national authorities and accredited verifiers, usability studies and inclusion pilots for small operators.  
 - **Phase 3:** broad public rollout, continuous evaluation and iterative policy updates guided by audits and impact metrics.
 
@@ -96,9 +96,9 @@ Chapter 3 lays out a feasible technical pattern and governance posture: centre t
 ### 📖 Continue Reading  
 
 ➡️[Next: Chapter 4 - Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
-⬅️[Back: Chapter 2 - The Trusted Websites Concept](Ch2-The-Trusted-Websites-concept.md)  
+⬅️[Back: Chapter 2 - Trusted Website concept](Ch2-Trusted-Website-concept.md)  
 [🏛️ Back to Index](index.md)
 
 ---
 
-_Last updated: 02-11-2025_
+_Last updated: 03-11-2025_
