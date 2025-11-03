@@ -1,16 +1,19 @@
 ---
-title: Chapter 1 - Introduction and context
+title: Chapter 1 - Introduction
+description: The Trusted Websites model
+author: Dean John Weiniger
+layout: default
 ---
 
-# Chapter 1 - Introduction and context
+# Chapter 1 - Introduction
 
 ## Overview
-Across Australia and globally, the rapid growth of the internet has enabled powerful advances in information sharing, commerce and connection. Alongside these benefits, risks have escalated: unsafe websites proliferate, misinformation spreads quickly, and users routinely face threats ranging from phishing to sophisticated cyber‑attacks. Existing mechanisms like HTTPS and traditional Public Key Infrastructure (PKI) improve security, but they don’t fully address persistent threats, fragmented governance, or the evolving tactics of malicious actors.
+Across Australia and globally, the rapid growth of the internet has enabled powerful advances in information sharing, commerce and connection. Alongside these benefits, risks have escalated: unsafe websites proliferate, misinformation spreads quickly, and users routinely face threats ranging from phishing to sophisticated cyber‑attacks. Existing mechanisms like HTTPS and traditional Public Key Infrastructure (PKI) improve security, but they do not fully address persistent threats, fragmented governance, or the evolving tactics of malicious actors.
 
 ---
 
 ## Vision
-This proposal sets out a browser integrated, centralised global website verification system that treats every website as a digital entity requiring authenticated “citizenship” before participation. Rather than reacting to harm with scattered “bad lists”, it establishes a universal “Trusted Websites” list, making verification proactive and continuous and ensuring identity and compliance are in place before default access.
+This proposal sets out a browser integrated, centralised global website verification system that treats every website as a digital entity requiring authenticated **“citizenship”** before participation. Rather than reacting to harm with scattered **“blacklists”**, it establishes a universal **“Trusted Websites”** list, making verification proactive and continuous and ensuring identity and compliance are in place before default access.
 
 ---
 
@@ -25,16 +28,16 @@ This report examines feasibility by:
 ---
 
 ## Why current approaches fall short
-- **Scope limitation:** HTTPS encrypts traffic and binds domains, but doesn’t assert content legitimacy or operator intent.
+- **Scope limitation:** HTTPS encrypts traffic and binds domains but does not assert content legitimacy or operator intent.
 - **Trust fragmentation:** Hundreds of root CAs, varied assurance levels and historical compromises dilute confidence.
 - **Reactive posture:** Blacklists and community reporting flag harm only after incidents, leaving users exposed.
-- **Operational gaps:** Post deployment checks (e.g. OWASP ASVS) validate controls but don’t prevent harmful site launches.
+- **Operational gaps:** Post deployment checks (e.g. OWASP ASVS) validate controls but do not prevent harmful site launches.
 
 ---
 
 ## The paradigm shift
-- **From bad lists to a trusted list:** Default access only for pre‑verified, continuously vetted sites.
-- **Continuous assurance:** Scheduled renewals, automated audits, incident based reviews and immediate revocation for violations.
+- **From blacklists to a trusted list:** Default access only for pre‑verified, continuously vetted sites.
+- **Continuous assurance:** Scheduled renewals, automated audits, incident-based reviews and immediate revocation for violations.
 - **Browser native enforcement:** Clear, consistent user signals and low latency credential checks at page load.
 
 ---
@@ -52,5 +55,9 @@ Subsequent chapters cover current standards and the “Trusted Websites” conce
 
 ### 📖 Continue Reading  
 
-➡️[Next: Chapter 2 - The Trusted Websites Concept](Ch2-The-Trusted-Websites-concept.md)  
+➡️[Next: Chapter 2 - Trusted Website Concept](Ch2-Trusted-Website-concept.md)  
 [🏛️ Back to Index](index.md)
+
+---
+
+_Last updated: 03-11-2025_
