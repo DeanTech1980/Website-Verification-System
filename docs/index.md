@@ -5,7 +5,7 @@ author: Dean John Weiniger
 layout: default
 ---
 
-# 🌐 Website Verification System 🖥️
+# 🌐 Website Verification System
 
 <p align="left">
   <img src="https://img.shields.io/badge/🔐%20Website-Trusted-98FB98?style=flat">
@@ -24,21 +24,21 @@ digital identity, and online safety._
 
 ## 📖 Full Report - Chapters
 
-- [Ch1 – Introduction and Context](Ch1-Introduction-and-context.md)  
-- [Ch2 – The Trusted Websites Concept](Ch2-The-Trusted-Websites-concept.md)  
-- [Ch3 – Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
+- [Ch1 – Introduction](Ch1-Introduction-and-context.md)  
+- [Ch2 – Trusted Website Concept](Ch2-Trusted-Website-concept.md)  
+- [Ch3 – Architecture and Governance](Ch3-Architecture-and-Governance.md)  
 - [Ch4 – Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
 - [Ch5 – Economics, Scalability, and Path Forward](Ch5-Economics-scalability-and-path-forward.md)
 
 ---
 
-##  📑 Simplified Version - Table of contents
+##  📑 Quick Version
 
 - [📖 Introduction](#-introduction)
-- [🔍 Existing Website Authentication Standards](#-existing-website-authentication-standards)
-- [🪪 Centralised Verification Authority Models](#-centralised-verification-authority-models)
+- [🔍 Existing Website Standards](#-existing-website-standards)
+- [🪪 Centralised Authority Models](#-centralised-authority-models)
 - [🌐 Browser Integrated Verification](#-browser-integrated-verification)
-- [📄 The Blacklist vs The Trusted List](#-the-blacklist-vs-the-trusted-list)
+- [📄 Blacklist vs Trusted List](#-blacklist-vs-trusted-list)
 - [🧩 Technical Architecture](#-technical-architecture)
 - [🎯 Approval & Renewal](#-approval--renewal)
 - [📈 Statistical Impact](#-statistical-impact)
@@ -50,11 +50,7 @@ digital identity, and online safety._
 - [👥 Stakeholders](#-stakeholders)
 - [💰 Economic Implications](#-economic-implications)
 - [📦 Scalability](#-scalability)
-- [✅ Conclusion: Charting a Path Forward](#-conclusion-charting-a-path-forward)
-- [📘 Download Report](#-download-report)
-- [🤝 Contributing](#-contributing)
-- [📝 Author](#-author)
-- [📜 Licence](#-licence)
+- [✅ Conclusion](#-conclusion)
 
 ---
 
@@ -113,7 +109,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🔍 Existing Website Authentication Standards
+## 🔍 Existing Website Standards
 
 - **HTTPS / SSL/TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
@@ -122,7 +118,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🪪 Centralised Verification Authority Models
+## 🪪 Centralised Authority Models
 
 - **Single Global Authority**: one supranational body.
 - **Federated National Entities**: each country governs its sites, interoperating globally.
@@ -145,7 +141,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 📄 The Blacklist vs The Trusted List
+## 📄 Blacklist vs Trusted List
 
 | Aspect | Current Blacklists | Proposed Trusted List |
 |--------|--------------------|-----------------------|
@@ -267,7 +263,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## ✅ Conclusion: Charting a Path Forward
+## ✅ Conclusion
 
 The vision of a browser integrated, centralised website verification system is both compelling and fraught with
 complexity. Properly implemented, it offers transformative advantages in the fight against cybercrime, misinformation,
@@ -335,4 +331,4 @@ This work is licensed under a **Creative Commons Attribution 4.0 International L
 
 ---
 
-_Last updated: 02-11-2025_
+_Last updated: 03-11-2025_
