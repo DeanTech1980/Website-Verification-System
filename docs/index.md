@@ -16,7 +16,7 @@ layout: default
 </p>
 
 **Building trust on the web:** _A concept paper exploring a proactive, browser integrated trust model for a website
-verification system. It explores replacing fragmented blacklists with a proactive **“Trusted Websites”** model,
+verification system. It explores replacing fragmented **Blacklists** with a proactive **“Trusted Websites”** model,
 supported by browser integrated trust signals and centralised or federated governance to strengthen cyber security,
 digital identity, and online safety._
 
@@ -54,44 +54,6 @@ digital identity, and online safety._
 
 ---
 
-## 📂 Repository Structure
-
-```text
-global-website-verification-system/
-├── .github/                                           # Workflows directory
-│   └── workflows/
-│       └── broken-links.yml                           # Check for broken links
-│       └── pages.yml                                  # Starts the webpage service
-├── docs/                                              # Documents for GitHub Pages
-│   └── assets/                                        # Images, diagrams, charts
-│   │   ├── css/
-│   │   │   └── styles.scss                            # Styles sheet
-│   │   └── diagrams/
-│   │       ├── trust-flow.svg                         # Trust diagram
-│   │       └── trust-flow.png
-│   ├── ACCESSIBILITY.md                               # Accessibility check list
-│   ├── CONTRIBUTING.md
-│   ├── Ch1-Introduction-and-context.md                # First Chapter of Paper
-│   ├── Ch2-The-Trusted-Websites-concept.md            #
-│   ├── Ch3-Architecture-Workflow-and-Governance.md    #
-│   ├── Ch4-Impacts-risks-and-case-studies.md          #
-│   ├── Ch5-Economics-scalability-and-path-forward.md  # Last Chapter of Paper
-│   ├── FAQ.md
-│   ├── Website-Verification-System.docx               # Downloadable copies
-│   ├── Website-Verification-System.pdf
-│   ├── _config.yml                                    # Template config file
-│   └── index.md                                       # Main Landing page
-├── .gitignore                                         # Ignore file
-├── CITATION.cff                                       # orcid and doi details
-├── Gemfile
-├── _config.yml                                        # Style Template
-├── README.md                                          # Main project overview
-├── LICENSE                                            # CC BY 4.0 License file
-└── sitemap.xml                                        # Static sitemap
-```
-
----
-
 ## 📖 Introduction
 
 Across the globe, the exponential growth of the internet has facilitated profound advancements in digital information
@@ -111,10 +73,10 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ## 🔍 Existing Website Standards
 
-- **HTTPS / SSL/TLS**: encryption but weak validation.
+- **HTTPS / SSL / TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
 - **OWASP ASVS**: useful but not gatekeeping.
-- **Blacklists**: reactive, inconsistent, after the fact.
+- **Blacklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct blacklist worldwide.
 
 ---
 
@@ -331,4 +293,4 @@ This work is licensed under a **Creative Commons Attribution 4.0 International L
 
 ---
 
-_Last updated: 03-11-2025_
+  _Last updated: 04-11-2025_
