@@ -1,6 +1,6 @@
 ---
 title: Website Verification System
-description: Proposal to replace blacklists with Trusted lists.
+description: Proposal to replace Blocklists with Trusted lists.
 author: Dean John Weiniger
 layout: default
 ---
@@ -16,7 +16,7 @@ layout: default
 </p>
 
 **Building trust on the web:** _A concept paper exploring a proactive, browser integrated trust model for a website
-verification system. It explores replacing fragmented blacklists with a proactive **“Trusted Websites”** model,
+verification system. It explores replacing fragmented **"Blocklists"** with a proactive **“Trusted Websites”** model,
 supported by browser integrated trust signals and centralised or federated governance to strengthen cyber security,
 digital identity, and online safety._
 
@@ -42,7 +42,7 @@ digital identity, and online safety._
 - [🔍 Existing Website Standards](#-existing-website-standards)
 - [🪪 Centralised Authority Models](#-centralised-authority-models)
 - [🌐 Browser Integrated Verification](#-browser-integrated-verification)
-- [📄 Blacklist vs Trusted List](#-blacklist-vs-trusted-list)
+- [📄 Blocklist vs Trusted List](#-blocklist-vs-trusted-list)
 - [🧩 Technical Architecture](#-technical-architecture)
 - [🎯 Approval & Renewal](#-approval--renewal)
 - [📈 Statistical Impact](#-statistical-impact)
@@ -75,9 +75,9 @@ global-website-verification-system/
 │   │       └── trust-flow.png
 │   ├── ACCESSIBILITY.md                               # Accessibility check list
 │   ├── CONTRIBUTING.md
-│   ├── Ch1-Introduction-and-context.md                # First Chapter of Paper
-│   ├── Ch2-The-Trusted-Websites-concept.md            #
-│   ├── Ch3-Architecture-Workflow-and-Governance.md    #
+│   ├── Ch1-Introduction.md                            # First Chapter of Paper
+│   ├── Ch2-Trusted-Websites-concept.md                #
+│   ├── Ch3-Architecture-and-Governance.md             #
 │   ├── Ch4-Impacts-risks-and-case-studies.md          #
 │   ├── Ch5-Economics-scalability-and-path-forward.md  # Last Chapter of Paper
 │   ├── FAQ.md
@@ -88,9 +88,9 @@ global-website-verification-system/
 ├── .gitignore                                         # Ignore file
 ├── CITATION.cff                                       # orcid and doi details
 ├── Gemfile
-├── _config.yml                                        # Style Template
-├── README.md                                          # Main project overview
+├── Gemfile.lock
 ├── LICENSE                                            # CC BY 4.0 License file
+├── README.md                                          # Main project overview
 └── sitemap.xml                                        # Static sitemap
 ```
 
@@ -105,7 +105,7 @@ sophisticated cyber-attacks.
 
 Traditional mechanisms such as **HTTPS** and **PKI** have improved security, but they fall short of addressing persistent
 threats, fragmented governance, and evolving tactics. This paper proposes a **browser integrated, centralised global
-website verification system** treating every website as a digital entity requiring authenticated “citizenship” before
+website verification system** treating every website as a digital entity requiring authenticated **citizenship** before
 participation.  
 
 This report examines current authentication standards, technical requirements, statistical implications, comparative
@@ -115,10 +115,10 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ## 🔍 Existing Website Standards
 
-- **HTTPS / SSL/TLS**: encryption but weak validation.
+- **HTTPS / SSL / TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
 - **OWASP ASVS**: useful but not gatekeeping.
-- **Blacklists**: reactive, inconsistent, after the fact.
+- **Blocklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct **Blocklists** worldwide.
 
 ---
 
@@ -145,9 +145,9 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 📄 Blacklist vs Trusted List
+## 📄 Blocklist vs Trusted List
 
-| Aspect | Current Blacklists | Proposed Trusted List |
+| Aspect | Current Blocklists | Proposed Trusted List |
 |--------|--------------------|-----------------------|
 | Source | Multiple, fragmented | Central/federated authority |
 | Update | After harm occurs | Proactive, continuous |
@@ -280,7 +280,7 @@ However, such centralisation presents profound risks: political overreach, marke
 exclusion. The technical, economic, and organisational challenges, scalability, cost, speed, and equity, must be
 addressed through staggered rollouts, robust oversight, multistakeholder engagement, and open technical standards.
 
-Ultimately, the shift from a fragmented **blacklists** mindset to a universal **“Trusted List”** would constitute a paradigm
+Ultimately, the shift from a fragmented **"Blocklists"** mindset to a universal **“Trusted List”** would constitute a paradigm
 change. For this to succeed, not only must technology and process scale, but new forms of governance, accountability,
 and international cooperation must be realised. Transparency, the balance of innovation with safety, and the assurance
 of rights for all digital actors, including dissenting voices and marginalised communities, are the cornerstones upon
@@ -331,4 +331,4 @@ This work is licensed under a **Creative Commons Attribution 4.0 International L
 
 ---
 
-_Last updated: 03-11-2025_
+_Last updated: 04-11-2025_
