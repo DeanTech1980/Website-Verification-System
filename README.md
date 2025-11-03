@@ -5,7 +5,7 @@ author: Dean John Weiniger
 layout: default
 ---
 
-# 🌐 Website Verification System 🖥️
+# 🌐 Website Verification System
 
 <p align="left">
   <img src="https://img.shields.io/badge/🔐%20Website-Trusted-98FB98?style=flat">
@@ -22,25 +22,39 @@ digital identity, and online safety._
 
 ---
 
-## 📑 Table of Contents
+## 📖 Full Report - Chapters
 
-- [📂 Repository Structure](#-repository-structure)
+- [Ch1 – Introduction](Ch1-Introduction.md)  
+- [Ch2 – Trusted Website Concept](Ch2-Trusted-Website-concept.md)  
+- [Ch3 – Architecture and Governance](Ch3-Architecture-and-Governance.md)  
+- [Ch4 – Impacts, Risks, and Case Studies](Ch4-Impacts-risks-and-case-studies.md)  
+- [Ch5 – Economics, Scalability, and Path Forward](Ch5-Economics-scalability-and-path-forward.md)
+
+---
+
+**Link to GitHub Page** - https://deantech1980.github.io/Website-Verification-System/
+
+---
+
+##  📑 Quick Version
+
 - [📖 Introduction](#-introduction)
-- [🔍 Existing Website Authentication Standards](#-existing-website-authentication-standards)
-- [📄 The Blacklist vs The Trusted List](#-the-blacklist-vs-the-trusted-list)
+- [🔍 Existing Website Standards](#-existing-website-standards)
+- [🪪 Centralised Authority Models](#-centralised-authority-models)
+- [🌐 Browser Integrated Verification](#-browser-integrated-verification)
+- [📄 Blacklist vs Trusted List](#-blacklist-vs-trusted-list)
 - [🧩 Technical Architecture](#-technical-architecture)
 - [🎯 Approval & Renewal](#-approval--renewal)
 - [📈 Statistical Impact](#-statistical-impact)
 - [🔁 Comparisons](#-comparisons)
-- [🌍 Governance Models](#-governance-models)
+- [🌏 Governance Models](#-governance-models)
 - [📚 Case Studies](#-case-studies)
 - [🔐 Cyber Security Standards](#-cyber-security-standards)
 - [🪙 Challenges](#-challenges)
 - [👥 Stakeholders](#-stakeholders)
 - [💰 Economic Implications](#-economic-implications)
 - [📦 Scalability](#-scalability)
-- [✅ Conclusion: Charting a Path Forward](#-conclusion-charting-a-path-forward)
-- [📜 Licence](#-licence)
+- [✅ Conclusion](#-conclusion)
 
 ---
 
@@ -50,9 +64,12 @@ digital identity, and online safety._
 global-website-verification-system/
 ├── .github/                                           # Workflows directory
 │   └── workflows/
-│       └── broken-links.yml                           # Check for broken links.
+│       └── broken-links.yml                           # Check for broken links
+│       └── pages.yml                                  # Starts the webpage service
 ├── docs/                                              # Documents for GitHub Pages
 │   └── assets/                                        # Images, diagrams, charts
+│   │   ├── css/
+│   │   │   └── styles.scss                            # Styles sheet
 │   │   └── diagrams/
 │   │       ├── trust-flow.svg                         # Trust diagram
 │   │       └── trust-flow.png
@@ -66,8 +83,10 @@ global-website-verification-system/
 │   ├── FAQ.md
 │   ├── Website-Verification-System.docx               # Downloadable copies
 │   ├── Website-Verification-System.pdf
+│   ├── _config.yml                                    # Template config file
 │   └── index.md                                       # Main Landing page
 ├── .gitignore                                         # Ignore file
+├── CITATION.cff                                       # orcid and doi details
 ├── Gemfile
 ├── _config.yml                                        # Style Template
 ├── README.md                                          # Main project overview
@@ -86,7 +105,7 @@ sophisticated cyber-attacks.
 
 Traditional mechanisms such as **HTTPS** and **PKI** have improved security, but they fall short of addressing persistent
 threats, fragmented governance, and evolving tactics. This paper proposes a **browser integrated, centralised global
-website verification system** - treating every website as a digital entity requiring authenticated “citizenship” before
+website verification system** treating every website as a digital entity requiring authenticated “citizenship” before
 participation.  
 
 This report examines current authentication standards, technical requirements, statistical implications, comparative
@@ -94,7 +113,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🔍 Existing Website Authentication Standards
+## 🔍 Existing Website Standards
 
 - **HTTPS / SSL/TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
@@ -103,7 +122,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🛡️ Centralised Verification Authority Models
+## 🪪 Centralised Authority Models
 
 - **Single Global Authority**: one supranational body.
 - **Federated National Entities**: each country governs its sites, interoperating globally.
@@ -126,7 +145,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 📄 The Blacklist vs The Trusted List
+## 📄 Blacklist vs Trusted List
 
 | Aspect | Current Blacklists | Proposed Trusted List |
 |--------|--------------------|-----------------------|
@@ -178,7 +197,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ## 🔁 Comparisons
 
-### 📧 Email Spam Filtering:
+### 📩 Email Spam Filtering:
 
 - **Spam filters** = reactive, statistical.
 - **Trusted List** = proactive, identity based.
@@ -190,7 +209,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 🌍 Governance Models
+## 🌏 Governance Models
 
 - **National**: e.g. Australia’s Digital ID Act.
 - **International**: ICANN, ITU, IGF - but limited scope.
@@ -248,7 +267,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## ✅ Conclusion: Charting a Path Forward
+## ✅ Conclusion
 
 The vision of a browser integrated, centralised website verification system is both compelling and fraught with
 complexity. Properly implemented, it offers transformative advantages in the fight against cybercrime, misinformation,
@@ -261,7 +280,7 @@ However, such centralisation presents profound risks: political overreach, marke
 exclusion. The technical, economic, and organisational challenges, scalability, cost, speed, and equity, must be
 addressed through staggered rollouts, robust oversight, multistakeholder engagement, and open technical standards.
 
-Ultimately, the shift from a fragmented “bad list” mindset to a universal **“Trusted List”** would constitute a paradigm
+Ultimately, the shift from a fragmented **blacklists** mindset to a universal **“Trusted List”** would constitute a paradigm
 change. For this to succeed, not only must technology and process scale, but new forms of governance, accountability,
 and international cooperation must be realised. Transparency, the balance of innovation with safety, and the assurance
 of rights for all digital actors, including dissenting voices and marginalised communities, are the cornerstones upon
@@ -273,11 +292,24 @@ all.
 
 ---
 
-## ✍️ Author
+## 📘 Download Report 
+
+- [MS Word version](Website-Verification-System.docx)  
+- [PDF version](Website-Verification-System.pdf)
+
+---
+
+## 🤝 Contributing
+
+We welcome feedback, ideas, and collaborators. Please refer to [CONTRIBUTING.md](docs/CONTRIBUTING.md)  
+Open an [issue](https://github.com/DeanTech1980/Website-Verification-System/issues) or submit a pull request.
+
+---
+
+## 📝 Author
 
 Authored by **Dean John Weiniger**.  
-With research and documentation support from **Microsoft Copilot**.
-
+With research and documentation support from **Microsoft Copilot**.  
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4733--1421-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4733-1421)  
 [![Powered by Copilot](https://img.shields.io/badge/Powered_by-Microsoft_Copilot-8A2BE2?logo=microsoft&logoColor=white)](https://copilot.microsoft.com)
 
@@ -285,22 +317,18 @@ With research and documentation support from **Microsoft Copilot**.
 
 ## 📜 Licence
 
-### © 2025 **Dean John Weiniger**
-
+**© 2025 Dean John Weiniger**  
 This work is licensed under a **Creative Commons Attribution 4.0 International License**.  
 [![CC BY 4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 
-### You are free to:
-
+**You are free to:**  
 ✅ **Share** - Copy and redistribute the material in any medium or format.  
 ✅ **Adapt** - Remix, transform, and build upon the material for any purpose, even commercially.
 
-### Under the following terms:
-
-🔗 **Attribution** - You must give appropriate credit, provide a link to the licence, and indicate if changes were made.
-
+**Under the following terms:**  
+🔗 **Attribution** - You must give appropriate credit, provide a link to the licence, and indicate if changes were made.  
 **Full licence text:** [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-_Last updated: 2025-11-01_
+_Last updated: 03-11-2025_
