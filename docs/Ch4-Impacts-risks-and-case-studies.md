@@ -1,12 +1,15 @@
 ---
-title: Chapter 4 - Impacts, risks and case studies
+title: Chapter 4
+description: Impacts, risks and case studies
+author: Dean John Weiniger
+layout: default
 ---
 
 # Chapter 4 - Impacts, risks and case studies
 
 ## Overview 
 This chapter evaluates the expected benefits and measurable impacts of a **Trusted Websites** system,
-contrasts it with related systems (email spam filtering and platform verification), and examines practical risks and mitigations through realworld case studies.
+contrasts it with related systems (email spam filtering and platform verification) and examines practical risks and mitigations through real world case studies.
 It outlines the statistical metrics to monitor, and the governance and technical controls required to limit harms introduced by centralisation.
 
 ---
@@ -72,15 +75,14 @@ potentially reducing successful malicious launches substantially.
 - **Appeals and accountable redress:** timely, independent appeals with clear remediation pathways.  
 - **Tiered and subsidised models:** low cost or nonprofit tracks for small, community and culturally important sites.  
 - **Robust security practices:** geo‑distributed infrastructure, short token TTLs, hardened key management, pen tests and bug bounties.  
-- **Human rights by design:** explicit policies for journalists, whistleblowers and sensitive speech;
-mechanisms for verified anonymous publication via accountable intermediaries.
+- **Human rights by design:** explicit policies for journalists, whistleblowers and sensitive speech; mechanisms for verified anonymous publication via accountable intermediaries.
 
 ---
 
 ## Summary
 A **Trusted Websites** system promises substantial reductions in common web harms and a stronger baseline of user trust,
 but it introduces serious governance, equity and technical risks. The practical path is iterative: measure rigorously,
-pilot in high risk sectors, adopt federated models, embed strong oversight and human rights protections, and build affordable tracks for inclusion.
+pilot in high-risk sectors, adopt federated models, embed strong oversight and human rights protections, and build affordable tracks for inclusion.
 Chapter 5 lays out the economic considerations, scalability planning and a phased roadmap for pilots and broader adoption.
 
 ---
@@ -88,5 +90,9 @@ Chapter 5 lays out the economic considerations, scalability planning and a phase
 ### 📖 Continue Reading  
 
 ➡️ [Next: Chapter 5 - Economics, Scalability, and Path Forward](Ch5-Economics-scalability-and-path-forward.md)  
-⬅️ [Back: Chapter 3 - Architecture, Workflow, and Governance](Ch3-Architecture-Workflow-and-Governance.md)  
+⬅️ [Back: Chapter 3 - Architecture and Governance](Ch3-Architecture-and-Governance.md)  
 [🏛️ Back to Index](index.md)
+
+---
+
+  _Last updated: 03-11-2025_
