@@ -76,7 +76,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 - **HTTPS / SSL / TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
 - **OWASP ASVS**: useful but not gatekeeping.
-- **Blacklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct blacklist worldwide.
+- **Blacklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct **Blacklists** worldwide.
 
 ---
 
