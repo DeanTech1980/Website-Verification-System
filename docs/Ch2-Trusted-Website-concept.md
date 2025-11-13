@@ -33,8 +33,8 @@ Standards and frameworks (for example, OWASP ASVS) provide robust post‑deploym
 
 ---
 
-## Blacklists and community trust tools
-Community and industry blacklists aggregate reports of harmful or fraudulent sites. Their characteristics:
+## Blocklists and community trust tools
+Community and industry blocklists aggregate reports of harmful or fraudulent sites. Their characteristics:
 - Reactive: sites are listed only after detection or harm.
 - Fragmented: different lists apply different criteria and geographical coverage.
 - Latency and inconsistency mean users remain exposed during the window between site launch and listing.
