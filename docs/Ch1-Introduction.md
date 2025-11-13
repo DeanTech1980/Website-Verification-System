@@ -13,13 +13,13 @@ Across Australia and globally, the rapid growth of the internet has enabled powe
 ---
 
 ## Vision
-This proposal sets out a browser integrated, centralised global website verification system that treats every website as a digital entity requiring authenticated **“citizenship”** before participation. Rather than reacting to harm with scattered **“blacklists”**, it establishes a universal **“Trusted Websites”** list, making verification proactive and continuous and ensuring identity and compliance are in place before default access.
+This proposal sets out a browser integrated, centralised global website verification system that treats every website as a digital entity requiring authenticated **“citizenship”** before participation. Rather than reacting to harm with scattered **“blocklists”**, it establishes a universal **“Trusted Websites”** list, making verification proactive and continuous and ensuring identity and compliance are in place before default access.
 
 ---
 
 ## Purpose of this report
 This report examines feasibility by:
-- **Assessing current standards:** HTTPS, PKI, blacklists and post deployment security verification practices.
+- **Assessing current standards:** HTTPS, PKI, blocklists and post deployment security verification practices.
 - **Defining requirements:** Technical and procedural needs for continuous, proactive verification.
 - **Evaluating impacts:** Statistical implications and comparisons (e.g. email spam filtering, platform verification).
 - **Exploring governance:** National and international models required to steward a global regime.
@@ -30,13 +30,13 @@ This report examines feasibility by:
 ## Why current approaches fall short
 - **Scope limitation:** HTTPS encrypts traffic and binds domains but does not assert content legitimacy or operator intent.
 - **Trust fragmentation:** Hundreds of root CAs, varied assurance levels and historical compromises dilute confidence.
-- **Reactive posture:** Blacklists and community reporting flag harm only after incidents, leaving users exposed.
+- **Reactive posture:** Blocklists and community reporting flag harm only after incidents, leaving users exposed.
 - **Operational gaps:** Post deployment checks (e.g. OWASP ASVS) validate controls but do not prevent harmful site launches.
 
 ---
 
 ## The paradigm shift
-- **From blacklists to a trusted list:** Default access only for pre‑verified, continuously vetted sites.
+- **From blocklists to a trusted list:** Default access only for pre‑verified, continuously vetted sites.
 - **Continuous assurance:** Scheduled renewals, automated audits, incident-based reviews and immediate revocation for violations.
 - **Browser native enforcement:** Clear, consistent user signals and low latency credential checks at page load.
 
