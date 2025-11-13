@@ -1,6 +1,6 @@
 ---
 title: Website Verification System
-description: Proposal to replace blacklists with Trusted lists.
+description: Proposal to replace Blocklists with Trusted lists.
 author: Dean John Weiniger
 layout: default
 ---
@@ -16,7 +16,7 @@ layout: default
 </p>
 
 **Building trust on the web:** _A concept paper exploring a proactive, browser integrated trust model for a website
-verification system. It explores replacing fragmented **Blacklists** with a proactive **“Trusted Websites”** model,
+verification system. It explores replacing fragmented **Blocklists** with a proactive **“Trusted Websites”** model,
 supported by browser integrated trust signals and centralised or federated governance to strengthen cyber security,
 digital identity, and online safety._
 
@@ -38,7 +38,7 @@ digital identity, and online safety._
 - [🔍 Existing Website Standards](#-existing-website-standards)
 - [🪪 Centralised Authority Models](#-centralised-authority-models)
 - [🌐 Browser Integrated Verification](#-browser-integrated-verification)
-- [📄 Blacklist vs Trusted List](#-blacklist-vs-trusted-list)
+- [📄 Blocklist vs Trusted List](#-blocklist-vs-trusted-list)
 - [🧩 Technical Architecture](#-technical-architecture)
 - [🎯 Approval & Renewal](#-approval--renewal)
 - [📈 Statistical Impact](#-statistical-impact)
@@ -76,7 +76,7 @@ frameworks, governance models, and the challenges of implementing such a transfo
 - **HTTPS / SSL / TLS**: encryption but weak validation.
 - **Certificate Authorities**: fragmented, sometimes compromised.
 - **OWASP ASVS**: useful but not gatekeeping.
-- **Blacklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct **Blacklists** worldwide.
+- **Blocklists**: reactive, inconsistent, an estimated several hundred to a few thousand distinct **Blocklists** worldwide.
 
 ---
 
@@ -103,9 +103,9 @@ frameworks, governance models, and the challenges of implementing such a transfo
 
 ---
 
-## 📄 Blacklist vs Trusted List
+## 📄 Blocklist vs Trusted List
 
-| Aspect | Current Blacklists | Proposed Trusted List |
+| Aspect | Current Blocklists | Proposed Trusted List |
 |--------|--------------------|-----------------------|
 | Source | Multiple, fragmented | Central/federated authority |
 | Update | After harm occurs | Proactive, continuous |
@@ -238,7 +238,7 @@ However, such centralisation presents profound risks: political overreach, marke
 exclusion. The technical, economic, and organisational challenges, scalability, cost, speed, and equity, must be
 addressed through staggered rollouts, robust oversight, multistakeholder engagement, and open technical standards.
 
-Ultimately, the shift from a fragmented **blacklists** mindset to a universal **“Trusted List”** would constitute a paradigm
+Ultimately, the shift from a fragmented **Blocklists** mindset to a universal **“Trusted List”** would constitute a paradigm
 change. For this to succeed, not only must technology and process scale, but new forms of governance, accountability,
 and international cooperation must be realised. Transparency, the balance of innovation with safety, and the assurance
 of rights for all digital actors, including dissenting voices and marginalised communities, are the cornerstones upon
