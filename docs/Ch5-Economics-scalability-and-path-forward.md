@@ -1,5 +1,8 @@
 ---
 title: Chapter 5 - Economics, scalability and path forward
+description: System feasibility
+author: Dean John Weiniger
+layout: default
 ---
 
 # Chapter 5 - Economics, scalability and path forward
@@ -16,7 +19,7 @@ This chapter examines the economic trade offs, funding models and market impacts
   - **Equity concern:** flat fees risk excluding small operators and community services.
 
 - **Costs for authorities and verifiers**
-  - Infrastructure (servers, mirrors, CDNs), security, staffing for reviews, appeals and customer support, third party audits, and legal/regulatory coordination.
+  - **Infrastructure:** (servers, mirrors, CDNs), security, staffing for reviews, appeals and customer support, third party audits, and legal/regulatory coordination.
 
 - **User costs and benefits**
   - Users pay mainly indirectly (taxes, subscription models) but benefit from lower fraud exposure, reduced remediation costs and improved trust in online services.
@@ -113,7 +116,7 @@ This chapter examines the economic trade offs, funding models and market impacts
 ---
 
 ## Summary
-A Trusted Websites system is economically intensive but can deliver large social returns through reduced fraud and stronger digital trust.
+A **Trusted Websites** system is economically intensive but can deliver large social returns through reduced fraud and stronger digital trust.
 Success depends on careful funding design, strong inclusion mechanisms, distributed engineering, open standards and staged pilots with rigorous KPIs.
 Prioritise privacy, human rights safeguards and subsidised tracks so the system raises the baseline of trust without excluding the web’s most valuable small and community actors.
 
